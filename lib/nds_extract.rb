@@ -28,7 +28,7 @@ def list_of_directors(source)
   # Write this implementation
   array=[]
   index = 0
-  while index = source.length do
+  while index < source.length do
     director=source[index][:name]
     array.push(director)
     index+=1
