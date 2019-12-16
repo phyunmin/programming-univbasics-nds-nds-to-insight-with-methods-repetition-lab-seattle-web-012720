@@ -54,6 +54,7 @@ def total_gross(source)
     total += each_totals[namelist[index]]
     index+=1
   end
+  return total
 end
 
 
